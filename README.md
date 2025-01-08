@@ -1,2 +1,0 @@
-# Calculator-microsoft
-Calculator microsoft
