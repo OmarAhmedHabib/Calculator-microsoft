@@ -23,4 +23,6 @@ function calculate() {
 function myFunction() {
     var element = document.getElementById("contenir");
     element.classList.toggle("dark-mode");
+    element1.classList.toggle("dark-mode-x");
  }
+ 

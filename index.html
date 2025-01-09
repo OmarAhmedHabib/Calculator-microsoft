@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="css&bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css&bootstrap/fontawesome-free-6.7.1-web/css/all.css">
     <link rel="stylesheet" href="css&bootstrap/style.css">
+    <link rel="stylesheet" href="css&bootstrap/responsive.css">
 </head>
 <body>
     <div class="button-mode">
       
-        <button onclick="myFunction()" class="fa-solid fa-moon btn btn-outline-primary btn-lg"></button>
+        <button onclick="myFunction()" class="fa-solid fa-moon btn btn-outline-primary btn-md-lg"></button>
   </div>
-    <div class="calculator">
+    <div class="calculator" id="spinner">
         <div id="contenir" class="contenir">
         <input type="text" id="display" disabled>
-        <div class="buttons">
-            <button onclick="appendToDisplay('%')">%</button>
-            <button onclick="deleteLast()">CE</button>
-            <button onclick="clearDisplay()">C</button>
+        <div  class="buttons">
+            <button id="buttons"  onclick="appendToDisplay('%')">%</button>
+            <button id="buttons" onclick="deleteLast()">CE</button>
+            <button  onclick="clearDisplay()">C</button>
             <button onclick="deleteLast('')">⌫</button>
             <button onclick="appendToDisplay('7')">₁/ₓ</button>
             <button onclick="appendToDisplay('x²')">x²</button>
             <button onclick="appendToDisplay('²√x')">²√x</button>
-            <button onclick="appendToDisplay('÷')">÷</button>
+            <button onclick="appendToDisplay('/')">÷</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('×')">×</button>
+            <button onclick="appendToDisplay('*')">×</button>
             <button onclick="appendToDisplay('4')">4</button>
             <button onclick="appendToDisplay('5')">5</button>
             <button onclick="appendToDisplay('6')">6</button>
@@ -45,5 +46,6 @@
     </div>
     </div>
     <script src="js/main.js"></script>
+    <script src="js.js"></script>
 
 </body>

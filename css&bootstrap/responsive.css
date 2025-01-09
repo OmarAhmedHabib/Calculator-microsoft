@@ -1,0 +1,77 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .header_section .main_nav {
+        flex: 1;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 15px;
+    }
+
+    .slider_section {
+        padding-top: 45px;
+    }
+
+    .feature_section .feature_container .box {
+        padding: 30px 15px;
+    }
+
+    .feature_section .feature_container .box .img-box {
+        width: 75px;
+    }
+
+
+    .feature_section {
+        transform: none;
+        padding: 90px 0;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    button{
+        padding: 15px;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 5px;
+        background-color: #444;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .contenir{
+        width: 320px;
+        cursor: pointer;
+    }
+    .button-mode {
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    cursor: pointer;
+    }
+
+
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
