@@ -42,8 +42,8 @@
         font-size: 1.5em;
         border: none;
         border-radius: 5px;
-        background-color: #444;
-        color: #fff;
+        background-color:var( --secondary-color);
+        color:var( --primary-color);
         cursor: pointer;
         transition: background-color 0.3s;
     }
