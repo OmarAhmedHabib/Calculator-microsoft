@@ -21,7 +21,7 @@ function calculate() {
     }
 }
 function myFunction() {
-    var element = document.getElementById("contenir");
+    var element = document.getElementById("spinner");
     element.classList.toggle("dark-mode");
 
  }
