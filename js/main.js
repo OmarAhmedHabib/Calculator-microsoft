@@ -25,3 +25,25 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 
  }
+ let currentInput = "0";
+let isResultDisplayed = false; // للتحقق إذا كان هناك نتيجة معروضة
+
+function updateDisplay() {
+  const display = document.getElementById("display");
+  display.textContent = currentInput;
+}
+
+function appendToDisplay(number) {
+  if (isResultDisplayed) {
+    // إذا كانت النتيجة معروضة وبدأ المستخدم كتابة رقم جديد
+    currentInput = number;
+    isResultDisplayed = false;
+  } else {
+    if (currentInput === "0") {
+      currentInput = number;
+    } else {
+      currentInput += number;
+    }
+  }
+  updateDisplay();
+}
