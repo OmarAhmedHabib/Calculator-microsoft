@@ -44,10 +44,37 @@ function calculate() {
     }
     updateDisplay();
 }
-function myFunction() {
-    var element = document.getElementById("spinner");
-    element.classList.toggle("dark-mode");
+// وظيفة النسبة المئوية
+function calculatePercent() {
+  if (!isNaN(currentInput)) {
+    currentInput = (parseFloat(currentInput) / 100).toString();
+    isResultDisplayed = true;
     updateDisplay();
+}
+}
+/*the dark mode thema */
+function white() {
+    var element = document.getElementById("spinner");
+    element.classList.toggle("white");
 
  }
+function black() {
+    var element = document.getElementById("spinner");
+    element.classList.toggle("black");
+
+ }
+function orange() {
+    var element = document.getElementById("spinner");
+    element.classList.toggle("orange");
+
+ }
+function cyan() {
+    var element = document.getElementById("spinner");
+    element.classList.toggle("cyan");
+
+ }
+function chegecolor(){
+  var color = getElementById("colorselct")
+  document.body.style.background = color
+}
 

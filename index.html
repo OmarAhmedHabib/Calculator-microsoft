@@ -10,9 +10,16 @@
     <link rel="stylesheet" href="css&bootstrap/responsive.css">
 </head>
 <body>
-
-      
-        <a onclick="myFunction()" class="fa-solid button-mode fa-moon btn btn-outline-primary btn-md-lg rounded-4"></a>
+    <div class="dropdown button-mode">
+        <button class="btn btn-outline-primary  rounded-4 btn-md-lg dropdown-toggle   fa-solid button-mode fa-moon " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+         <li><a onclick=" black() " class="dropdown-item  active" href="#">Black</a></li>
+          <li><a onclick="white()" class="dropdown-item" href="#">WHITE</a></li>
+          <li><a onclick="orange()" class="dropdown-item" href="#">Dark Orange</a></li>
+          <li><a onclick="cyan()" class="dropdown-item" href="#">purple</a></li>
+        </ul>
+      </div>
 
     <div class="calculator" id="spinner">
         <div id="contenir" class="contenir">
@@ -23,7 +30,7 @@
             <button  onclick="clearDisplay()">C</button>
             <button onclick="deleteLast('')">⌫</button>
             <button onclick="appendToDisplay('7')">₁/ₓ</button>
-            <button onclick="appendToDisplay('x²')">x²</button>
+            <button onclick="calculateSquare()">x²</button>
             <button onclick="appendToDisplay('²√x')">²√x</button>
             <button onclick="appendToDisplay('/')">÷</button>
             <button onclick="appendToDisplay('7')">7</button>
@@ -45,6 +52,7 @@
         </div>         
     </div>
     </div>
+     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>

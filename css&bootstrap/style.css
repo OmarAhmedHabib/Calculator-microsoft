@@ -6,6 +6,29 @@
 :root{
     --primary-color:  #f0f0f0;
     --secondary-color: #333; 
+    --turbo-blue: #161820;
+    --turbo-indigo: #727cf5;
+    --turbo-purple: #6b5eae;
+    --turbo-pink: #ff679b;
+    --turbo-red: #FF3B30;
+    --turbo-orange: #FF9500;
+    --turbo-yellow: #FDD428;
+    --turbo-green: #4CD964;
+    --turbo-teal: #02a8b5;
+    --turbo-cyan: #2eb7f5;
+    --turbo-white: #fff;
+    --turbo-gray: #7F7F7F;
+    --turbo-gray-dark: #555555;
+    --turbo-gray-black: #000;
+    --turbo-gray-100: #fafafa;
+    --turbo-gray-200: #f2f2f2;
+    --turbo-gray-300: #e1e1e1;
+    --turbo-gray-400: #bebebe;
+    --turbo-gray-500: #949494;
+    --turbo-gray-600: #7F7F7F;
+    --turbo-gray-700: #6c757d;
+    --turbo-gray-800: #555555;
+    --turbo-gray-900: #404040;
 
 }
 .body {
@@ -35,7 +58,7 @@
     width: 400px;
     background-color: var(--secondary-color);
     padding: 20px;
-    box-shadow: 0px 0px 15px rgba(99, 93, 93, 0.733);
+    box-shadow: 0px 0px 100px 15px rgba(221, 57, 180, 0.521);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -87,7 +110,7 @@ button {
     color: var(--primary-color);
     cursor: pointer;
     transition: background-color 0.3s;
-    box-shadow: 0px 0px 15px rgba(5, 5, 5, 0.733);
+    box-shadow: 0px 0px 5px rgba(158, 21, 21, 0.733);
 }
 
 button:hover {
@@ -107,8 +130,22 @@ button.zero {
     left: 25%;
     cursor: pointer;
 }
-.dark-mode{
-    --primary-color:  #160000;
-    --secondary-color: #fff7f7; 
+.black{
+    --primary-color:white ;
+    --secondary-color:black ; 
 }
+.white{
+    --primary-color: #05090e;
+    --secondary-color: rgba(158, 139, 146, 0.363); 
+}
+.orange{
+    --primary-color: white;
+    --secondary-color:#74451ade; 
+}
+.cyan{
+    --primary-color:  white ;
+    --secondary-color:#36051d; 
+}
+
+
   
