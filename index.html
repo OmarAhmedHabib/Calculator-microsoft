@@ -14,10 +14,10 @@
         <button class="btn btn-outline-primary  rounded-4 btn-md-lg dropdown-toggle   fa-solid button-mode fa-moon " type="button" data-bs-toggle="dropdown" aria-expanded="false">
         </button>
         <ul class="dropdown-menu dropdown-menu-dark">
-         <li><a onclick=" black() " class="dropdown-item  active" href="#">Black</a></li>
-          <li><a onclick="white()" class="dropdown-item" href="#">WHITE</a></li>
-          <li><a onclick="orange()" class="dropdown-item" href="#">Dark Orange</a></li>
-          <li><a onclick="cyan()" class="dropdown-item" href="#">purple</a></li>
+         <li><a onclick="changeColor('black')"class="dropdown-item  active" href="#">Black</a></li>
+          <li><a onclick="changeColor('white')"class="dropdown-item" href="#">WHITE</a></li>
+          <li><a  onclick="changeColor('orange')"class="dropdown-item" href="#">Dark Orange</a></li>
+          <li><a  onclick="changeColor('cyan')"class="dropdown-item" href="#">purple</a></li>
         </ul>
       </div>
 
@@ -25,13 +25,13 @@
         <div id="contenir" class="contenir">
         <input type="text" id="display" disabled>
         <div  class="buttons">
-            <button id="buttons"  onclick="appendToDisplay('%')">%</button>
+            <button id="buttons"  onclick="calculatePercent()">%</button>
             <button id="buttons" onclick="deleteLast()">CE</button>
             <button  onclick="clearDisplay()">C</button>
             <button onclick="deleteLast('')">⌫</button>
             <button onclick="appendToDisplay('7')">₁/ₓ</button>
-            <button onclick="calculateSquare()">x²</button>
-            <button onclick="appendToDisplay('²√x')">²√x</button>
+            <button  onclick="calculateSquare()">x²</button>
+            <button onclick="appendToDisplay('^')">²√x</button>
             <button onclick="appendToDisplay('/')">÷</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>

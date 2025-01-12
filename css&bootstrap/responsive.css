@@ -53,8 +53,8 @@
     }
     .button-mode {
     position: absolute;
-    top: 0rem;
-    left: 7rem;
+    top: 0.75rem;
+    left: 6rem;
     cursor: pointer;
     }
     #display {
